@@ -1,0 +1,93 @@
+html {
+    font-size: 10px;
+    font-family: 'Abril Fatface', cursive;
+    display: grid;
+    background-image: url("https://image.cnbcfm.com/api/v1/image/106240744-1573590258713politicaldebate.jpg?v=1573590321&w=1400&h=950")
+}
+
+body {
+    display: grid;
+    line-height: 1.4;
+    justify-content: center;
+    color: #000;
+    background-color: rgba(218, 112, 214, 0.85);
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+img {
+    width: 250px;
+}
+
+.dropdown-center {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    border: 0;
+}
+
+.center-button {
+    display: grid;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    width: 400px;
+    margin: auto;
+}
+
+input:radio {
+    display: inline;
+    width: auto;
+}
+
+.radio,
+.checkbox {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 1.25;
+    }
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
